@@ -1,3 +1,5 @@
+package com.example.dvdinventory;
+
 public class DVDCollection {
     private String name;
     private Integer releaseYear;

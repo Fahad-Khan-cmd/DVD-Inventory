@@ -1,3 +1,5 @@
+package com.example.dvdinventory;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -91,7 +93,7 @@ public class Main {
         return list.toArray(new DVDCollection[0]);
     }
 
-    private static DVDCollection[] albumsByDirectorNames(DVDCollection[] dvdCollections,String directorName) {
+    private static DVDCollection[] albumsByDirectorNames(DVDCollection[] dvdCollections, String directorName) {
         System.out.println("Search albums by directors names");
 
         // Used the list because it's dynamically increases the size
